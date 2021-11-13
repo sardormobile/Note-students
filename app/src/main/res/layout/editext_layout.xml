@@ -7,16 +7,16 @@
 
 
     <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="409dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="12dp"
+        android:padding="18dp"
         tools:ignore="MissingConstraints">
 
         <com.google.android.material.textfield.TextInputEditText
-
             android:id="@+id/ediText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:maxLength="5"
             android:hint="@string/addTextHint" />
     </com.google.android.material.textfield.TextInputLayout>
 

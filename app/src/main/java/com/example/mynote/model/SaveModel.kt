@@ -7,5 +7,7 @@ data class SaveModel(
     val data: String,
     val image: Bitmap?,
     val time: String,
-    val text:String?
+)
+data class SaveTextModel(
+    val text: String?
 )

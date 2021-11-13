@@ -6,21 +6,21 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
         android:orientation="vertical">
         <androidx.cardview.widget.CardView
-            android:id="@+id/leson_click_id"
             android:layout_width="match_parent"
             android:layout_height="124dp"
             app:cardElevation="8dp"
+            app:cardMaxElevation="4dp"
             app:cardCornerRadius="8dp"
             android:layout_marginTop="8dp"
             app:cardUseCompatPadding="true"
             app:cardBackgroundColor="@color/white">
             <LinearLayout
+                android:id="@+id/leson_click_id"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+
                 android:orientation="horizontal">
                 <View
                     android:layout_width="16dp"

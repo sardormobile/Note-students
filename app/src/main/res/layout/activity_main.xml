@@ -75,7 +75,7 @@
 
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/add_btn"
+        android:id="@+id/lesson_add_btn"
         android:layout_width="64dp"
         android:layout_height="64dp"
         android:layout_margin="16dp"

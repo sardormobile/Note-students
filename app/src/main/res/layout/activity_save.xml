@@ -27,6 +27,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
+                android:id="@+id/lesson_name_id"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="18dp"
@@ -38,19 +39,19 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
-                android:id="@+id/add_image_gallarey_id"
+                android:id="@+id/save_add_image_gallarey_id"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:layout_marginEnd="22dp"
                 android:src="@drawable/ic_baseline_add_photo_alternate_24"
                 android:tint="@color/black"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/add_text_id"
+                app:layout_constraintEnd_toStartOf="@+id/save_add_text_id"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:ignore="UseAppTint" />
 
             <ImageView
-                android:id="@+id/add_text_id"
+                android:id="@+id/save_add_text_id"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:layout_marginEnd="22dp"
